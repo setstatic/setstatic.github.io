@@ -14,4 +14,6 @@ A few external links:
 - [instagram](https://www.instagram.com/setstatic/)
 - [vimeo](https://vimeo.com/setstatic)
 - [swiftkick web](https://www.swiftkickweb.com/)
+- [linkeIn](https://www.linkedin.com/in/mikeperkins/details/experience/)
+
 

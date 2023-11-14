@@ -15,3 +15,6 @@ header_pages:
 
 plugins:
   - jekyll-seo-tag
+
+#data
+base_img_path: "https://ststc-01.s3.amazonaws.com/oft.center/"
