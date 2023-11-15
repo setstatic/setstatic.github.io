@@ -30,7 +30,10 @@ footer { color: var(--text-color);  border-top: var(--border);  margin: 20px aut
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
-img { max-width: $container-max-width; }
+img {
+  width: 100%;
+  max-width: $container-max-width;
+}
 
 /**
  * Highlight/Markup
