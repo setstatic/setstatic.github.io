@@ -11,6 +11,11 @@ layout: default
     <li>
       {%- assign date_format = "%m.%d.%Y" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      {%- if post.thumb -%}
+      <a href="{{ post.url | relative_url }}"></a>
+        <img class = "post__thumb" src="{{ site.base_img_path }}{{ post.thumb }}" alt="">
+      </a>
+    {%- endif -%}
     </li>
     {%- endfor -%}
   </ul>
