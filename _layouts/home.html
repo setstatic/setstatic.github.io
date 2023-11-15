@@ -9,7 +9,7 @@ layout: default
   <ul>
     {%- for post in site.posts -%}
     <li>
-      {%- assign date_format = "%m.%d.%Y" -%}
+      {%- assign date_format = "%m.%d.%y" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       {%- if post.thumb -%}
       <a href="{{ post.url | relative_url }}"></a>
