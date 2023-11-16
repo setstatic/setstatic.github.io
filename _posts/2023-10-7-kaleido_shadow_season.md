@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "philodendron painting"
-date:   2023-11-15 0:0:0 -0500
-image: philodendron_painting
-categories: [posts, painting, art]
+title:  "kaleido shadow season"
+date:   2023-10-07 0:0:0 -0500
+image: kaleido_shadow_season
+categories: [posts, event]
 ---
 
 # Philodendron
