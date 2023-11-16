@@ -6,6 +6,6 @@ image: kaleido_shadow_season
 categories: [posts, event]
 ---
 
-# Philodendron
+# Kaleido Shadow Season
 
 <img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}.jpg" alt="{{ page.title }}" />
