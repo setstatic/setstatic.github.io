@@ -10,7 +10,7 @@ layout: default
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = "%m.%d.%y" -%}
-      <span class="post__date">[ {{ post.date | date: date_format }} ]</span>
+      <span class="post__date">{{ post.date | date: date_format }} ></span>
       <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       {%- if post.image -%}
         <a href="{{ post.url | relative_url }}"></a>
