@@ -6,14 +6,14 @@ layout: default
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
 {%- if site.posts.size > 0 -%}
-  <ul>
+  <ul class="posts">
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = "%m.%d.%y" -%}
       <span class="post__date">{{ post.date | date: date_format }} ></span>
       <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       {%- if post.image -%}
-        <a href="{{ post.url | relative_url }}"></a>
+        <a href="{{ post.url | relative_url }}">
           <img class = "post__thumb" src="{{ site.base_img_path }}{{ post.image }}_th.jpg" alt="">
         </a>
       {%- endif -%}

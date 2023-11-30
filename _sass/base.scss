@@ -12,6 +12,11 @@ $container-width:      90% !default;
 $container-max-width:  800px !default;
 
 /**
+ * Google fonts
+ */
+$font-oswald: 'Oswald', sans-serif;
+
+/**
  * Global
  */
 body { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
@@ -56,6 +61,11 @@ img {
 .menu ul li { display: inline;  margin-left: 10px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
+.title { 
+  font-family: $font-oswald;
+  text-align: left;
+  text-decoration: none;
+}
 
 /**
  * Footer
@@ -73,6 +83,12 @@ img {
 /**
  * Posts
  */
+.posts {
+  a {
+    text-decoration: none;
+  }
+}
+
 .post__thumb {
   height: 1rem;
   width: 1rem;
