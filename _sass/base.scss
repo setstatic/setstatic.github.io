@@ -2,19 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
 
 /**
+ * Google fonts
+ */
+ $font-oswald: 'Oswald', sans-serif;
+ $font-roboto: 'Roboto Condensed', sans-serif;
+
+/**
  * Style variables
  */
 $base-font-family:     'Source Code Pro', monospace !default;
-$base-font-size:       15px !default;
-$mobile-font-size:     15px !default;
+$base-font-size:       16px !default;
+$mobile-font-size:     16px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
 $container-max-width:  800px !default;
-
-/**
- * Google fonts
- */
-$font-oswald: 'Oswald', sans-serif;
 
 /**
  * Global
@@ -179,3 +180,142 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+.page__resume {
+  background: #00303e;
+}
+
+.resume {
+  //font-family: 'Inconsolata', monospace;
+  background: #00303e;
+  color: #999999;
+  font-size: 14px;
+  // body {
+  //   font-family: 'Inconsolata', monospace;
+  //   background: #00303e;
+  //   color: #999999;
+  //   font-size: 14px;
+  // }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: #ae81ff;
+  }
+  
+  #container,
+  .linkedin {
+    max-width: 700px;
+    min-width: 320px;
+    margin: 40px 20px 60px 96px;
+  }
+  
+  @media (max-width: 400px) {
+    #container,
+    .linkedin {
+      max-width: 320px;
+      min-width: 320px;
+      margin: 0 auto;
+      padding: 20px 10px;
+    }
+  }
+  
+  .linkedin {
+    color: #f8f8f2;
+  }
+  
+  .linkedin a {
+    color: #ba8731;
+  }
+  
+  .info__name {
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 0 0 5px 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #999999;
+    letter-spacing: 0.125em;
+    background: url(/assets/img/tri.png) no-repeat bottom right;
+  }
+  
+  @media (max-width: 400px) {
+    .info__name {
+      font-size: 18px;
+      line-height: 18px;
+    }
+  }
+  
+  .job,
+  .education,
+  .tools {
+    margin-bottom: 30px;
+    background: url(/assets/img/tri02.png) no-repeat bottom left;
+  }
+  
+  .job__header,
+  .education__header,
+  .tools__header {
+    color: #f8f8f2;
+    margin-bottom: 20px;
+  }
+  
+  .frame {
+    border-left: 1px solid #22333e;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 8px;
+  }
+  
+  .job__date {
+    color: #ba8731; /*orange*/
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .job__position {
+    color: #66d9ef; /*blue*/
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
+  .job__employer {
+    color: #a6e22e; /*green*/
+    margin-bottom: 12px;
+  }
+  
+  .job__clients {
+    color: #ec007c; /*red/pink*/
+    margin-bottom: 12px;
+  }
+  
+  .job__clients__title {
+    color: #f8f8f2;
+  }
+  
+  .job__details {}
+  
+  .job__details__title {
+    color: #efe158; /*yellow*/
+    margin-bottom: 3px;
+    text-transform: uppercase;
+  }
+  
+  .job__details__detail {
+    color: #999999;
+    /*color: #f9266b;*/
+  }
+  
+  .education__school {
+    color: #efe158; /*yellow*/
+    margin-bottom: 2px;
+  }
+  
+  .tools__section {
+    color: #a6e22e; /*green*/
+    margin-bottom: 2px;
+  }
+}
