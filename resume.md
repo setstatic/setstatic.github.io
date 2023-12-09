@@ -107,7 +107,7 @@ body_class: resume
   <div class="education">
     <div class="frame">
       <div class="education__school">School of Visual Arts</div>
-      <div class="education__study">Advanced Flash ActionScript</div>
+      <div class="education__study">Continuing Education</div>
       <div class="education__dates">2004 &amp; 2008</div>
     </div>
   </div>
@@ -175,28 +175,28 @@ body_class: resume
   <div class="tools">
     <div class="frame">
       <div class="tools__section">cms</div>
-      <div class="tools__description">drupal, wordpress, jekyll</div>
+      <div class="tools__description">drupal, wordpress, shopify, jekyll</div>
     </div>
   </div>
 
   <div class="tools">
     <div class="frame">
       <div class="tools__section">authoring</div>
-      <div class="tools__description">vscode, sublime text, textmate, vim</div>
+      <div class="tools__description">vscode, sublime, vim</div>
     </div>
   </div>
 
   <div class="tools">
     <div class="frame">
       <div class="tools__section">graphics</div>
-      <div class="tools__description">photoshop, pixelmator, illustrator, inkscape, imageoptim</div>
+      <div class="tools__description">photoshop, illustrator, inkscape, figma, InDesign</div>
     </div>
   </div>
 
   <div class="tools">
     <div class="frame">
       <div class="tools__section">operation systems</div>
-      <div class="tools__description">osx, windows via VM, ios, android, ubento</div>
+      <div class="tools__description">osx, windows via VM, ios, android, ubentu</div>
     </div>
   </div>
 
@@ -209,22 +209,8 @@ body_class: resume
 
   <div class="tools">
     <div class="frame">
-      <div class="tools__section">supported browsers</div>
-      <div class="tools__description">chrome, safari, firefox, internet explorer, opera</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
-      <div class="tools__section">mobile development</div>
-      <div class="tools__description">canary mobile emulation mode, safari developer with ios simulator, chrome remote debugging with android phone, browserstack, iPhone4s, iPhone6, iPad</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
       <div class="tools__section">learning</div>
-      <div class="tools__description">ES6, react, node</div>
+      <div class="tools__description">ES6, react, node, vue</div>
     </div>
   </div>
 
@@ -238,7 +224,7 @@ body_class: resume
   <div class="tools">
     <div class="frame">
       <div class="tools__section">retired</div>
-      <div class="tools__description">svn, prototype, actionscript, toonz</div>
+      <div class="tools__description">svn, prototype, actionscript, toonz, quark</div>
     </div>
   </div>
 
