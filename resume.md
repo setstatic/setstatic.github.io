@@ -33,7 +33,7 @@ body_class: resume
       <div class="job__clients"><span class="job__clients__title">Client </span>Estée Lauder Companies</div>
       <div class="job__details">
         <div class="job__details__title">brands</div>
-        <div class="job__details__detail"><a href="http://www.esteelauder.com">esteelauder.com</a>, <a href="http://www.maccosmetics.com">maccosmetics.com</a>, <a href="http://www.smashbox.com">smashbox.com</a>, <a href="http://www.clinique.com">clinique.com</a>, <a href="http://www.flirtcosmetics.com">flirtcosmetics.com</a>, <a href="http://www.origins.com">origins.com</a>, <a href="http://www.aveda.com">aveda.com</a>, <a href="http://www.glamglow.com">glamglow.com</a>, <a href="http://www.ojon.com">ojon.com</a>, <a href="http://www.bumbleandbumble.com">bumbleandbumble.com</a>, <a href="http://www.bobbibrowncosmetics.com">bobbibrowncosmetics.com</a>, <a href="http://www.prescriptives.com">prescriptives.com</a>, <a href="http://www.cremedelamer.com">cremedelamer.com</a>, <a href="http://www.darphin.com">darphin.com</a>, <a href="http://www.jomalone.com">jomalone.com</a>, <br><br>Built and maintained branded sites for ELC <br>Lead Front End Developer for promotional offers <br>Additional responsibilities: code review, code deployment, git support and technical advisement for creative</div>
+        <div class="job__details__detail"><a href="http://www.esteelauder.com">esteelauder.com</a>, <a href="http://www.maccosmetics.com">maccosmetics.com</a>, <a href="http://www.smashbox.com">smashbox.com</a>, <a href="http://www.clinique.com">clinique.com</a>, <a href="http://www.flirtcosmetics.com">flirtcosmetics.com</a>, <a href="http://www.origins.com">origins.com</a>, <a href="http://www.aveda.com">aveda.com</a>, <a href="http://www.glamglow.com">glamglow.com</a>, <a href="http://www.ojon.com">ojon.com</a>, <a href="http://www.bumbleandbumble.com">bumbleandbumble.com</a>, <a href="http://www.bobbibrowncosmetics.com">bobbibrowncosmetics.com</a>, <a href="http://www.prescriptives.com">prescriptives.com</a>, <a href="http://www.cremedelamer.com">cremedelamer.com</a>, <a href="http://www.darphin.com">darphin.com</a>, <a href="http://www.jomalone.com">jomalone.com</a>, <br><br>Built and maintained branded sites for ELC <br>Lead developer for promotional offers. Involving multiple Kardashians, Amber Rose and Star Trek<br>Additional responsibilities: code review, code deployment, git support and technical advisement for creative</div>
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@ body_class: resume
       <div class="job__clients"><span class="job__clients__title">Clients </span>Siemens, Genetech, Ricoh, Ikon, Pentax</div>
       <div class="job__details">
         <div class="job__details__title"></div>
-        <div class="job__details__detail"></div>
+        <div class="job__details__detail">Kind of like the television show Mad Men, except 40 years later. One designer for a large floor of acounts</div>
       </div>
     </div>
   </div>
