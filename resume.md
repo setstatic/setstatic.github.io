@@ -140,7 +140,7 @@ body_class: resume
   <div class="tools">
     <div class="frame">
       <div class="tools__section">languages</div>
-      <div class="tools__description">html, css, javascript, php, bash, perl, liquid, git</div>
+      <div class="tools__description">html, css, javascript, php, bash, perl, liquid, git, some Dutch</div>
     </div>
   </div>
 
