@@ -4,8 +4,8 @@
 
 :root {
   --base-color: #66d9ef;
-  --border: dashed 1px rgba(219, 219, 219, 0.9);
-  --selection-background: rgba(219, 219, 219, 0.99);
+  --border: dashed 1px #2ee2c4; //dashed 1px rgba(219, 219, 219, 0.9);
+  --selection-background: #2ee2c4; //rgba(219, 219, 219, 0.99);
   --selection-text: #1d1d1d;
   --background-color: #00303e; //#282828;
   --text-color: var(--base-color);
