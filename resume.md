@@ -140,35 +140,7 @@ body_class: resume
   <div class="tools">
     <div class="frame">
       <div class="tools__section">languages</div>
-      <div class="tools__description">html, css, javascript, php, bash, perl</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
-      <div class="tools__section">frameworks</div>
-      <div class="tools__description">jquery, scss</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
-      <div class="tools__section">helpers</div>
-      <div class="tools__description">compass, _underscore, mustache, modernizr, gulp, bower, jenkins</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
-      <div class="tools__section">conventions</div>
-      <div class="tools__description">bem, camelCase</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
-      <div class="tools__section">version control</div>
-      <div class="tools__description">git</div>
+      <div class="tools__description">html, css, javascript, php, bash, perl, git</div>
     </div>
   </div>
 
@@ -181,36 +153,8 @@ body_class: resume
 
   <div class="tools">
     <div class="frame">
-      <div class="tools__section">authoring</div>
-      <div class="tools__description">vscode, sublime, vim</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
       <div class="tools__section">graphics</div>
-      <div class="tools__description">photoshop, illustrator, inkscape, figma, InDesign</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
-      <div class="tools__section">operation systems</div>
-      <div class="tools__description">osx, windows via VM, ios, android, ubentu</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
-      <div class="tools__section">optimization</div>
-      <div class="tools__description">alfred, atext, emmet, textexpander</div>
-    </div>
-  </div>
-
-  <div class="tools">
-    <div class="frame">
-      <div class="tools__section">learning</div>
-      <div class="tools__description">ES6, react, node, vue</div>
+      <div class="tools__description">photoshop, illustrator, inkscape, figma, indesign</div>
     </div>
   </div>
 
@@ -231,7 +175,7 @@ body_class: resume
   <div class="tools">
     <div class="frame">
       <div class="tools__section">music</div>
-      <div class="tools__description">bassists -- 25+ years practice. 6 bands, w/ multiple tours [us, europe]</div>
+      <div class="tools__description">bassists -- 25+ year practice. 6 bands, w/ multiple tours [us, europe]</div>
     </div>
   </div>
 
