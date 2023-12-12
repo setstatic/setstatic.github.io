@@ -98,6 +98,13 @@ img {
   }
 }
 
+.post__thumb__link {
+  background-color: transparent;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
 .post__thumb {
   height: 1rem;
   width: 1rem;

@@ -13,7 +13,7 @@ layout: default
       <span class="post__date">{{ post.date | date: date_format }} ></span>
       <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       {%- if post.image -%}
-        <a href="{{ post.url | relative_url }}">
+        <a class="post__thumb__link" href="{{ post.url | relative_url }}">
           <img class = "post__thumb" src="{{ site.base_img_path }}{{ post.image }}_th.jpg" alt="">
         </a>
       {%- endif -%}
