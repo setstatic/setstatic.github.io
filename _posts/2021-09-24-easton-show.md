@@ -1,18 +1,14 @@
 ---
 layout: post
-title:  "First Easton Show"
-date:   2021-09-24 0:0:0 -0500
-image: easton_flyer
+title:  "kaleido Tickets"
+date:   2023-05-06 0:0:0 -0500
+image: kaleido_tickets
 categories: [posts, event]
 ---
 
-# Easton Show
+# Kaleido Tickets
 
-- Goonight Stars, Goodnight Air
-- Wharton Teirs Ensamble
-- Steve Silverstein
-
-First attempt at producing a show locally in Easton, PA
+Tickets created for the first Kaleido on May 6th, 2023
 
 <img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}_01.jpg" alt="{{ page.title }}" />
 <img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}_02.jpg" alt="{{ page.title }}" />
