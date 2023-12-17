@@ -337,3 +337,10 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .cats {
   > ul > li:before { content: ""; }
 }
+
+.chips_salsa,
+.half__image {
+  img {
+    width: 49%;
+  }
+}

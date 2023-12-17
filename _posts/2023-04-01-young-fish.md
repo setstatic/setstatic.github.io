@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "young fish - group show"
+title:  "young fish"
 date:   2023-04-01 0:0:0 -0500
 image: young_fish
 categories: [posts, event]
