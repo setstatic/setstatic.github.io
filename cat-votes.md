@@ -4,7 +4,9 @@ layout: page
 permalink: /cat-votes/
 ---
 
-# votes
+<div class="cats">
+
+  <h3>votes</h3>
 
   <ul>
     <li id="bea">Bea: <span class="result"></span></li>
@@ -13,17 +15,16 @@ permalink: /cat-votes/
     <li id="chickpea">Chick Pea: <span class="result"></span></li>
     <li>---</li>
     <li id="voted">voted: <span class="result"></span></li>
-    <li id="novote">non voted points: <span class="result"></span></li>
-    <li id="total-points">total points: <span class="result"></span></li>
   </ul>
 
-<!-- # votes weighted
+  <h3>votes weighted</h3>
 
   <ul>
     <li id="bea_weighted">Bea: <span class="result"></span></li>
     <li id="louise_weighted">Louise: <span class="result"></span></li>
     <li id="eleven_weighted">Eleven: <span class="result"></span></li>
     <li id="chickpea_weighted">Chick Pea: <span class="result"></span></li>
-  </ul> -->
+  </ul>
+</div>
 
 <script language="JavaScript" src="/assets/js/votes.js"></script>

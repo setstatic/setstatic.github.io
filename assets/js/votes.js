@@ -1,116 +1,116 @@
 var votes = [
   {
     "name" : "Ashley",
-    "v1" : "Eleven",
-    "v2" : "Louise",
-    "v3" : "Bea",
-    "v4" : "Chick Pea"
+    "Bea" : 3,
+    "Louise" : 2,
+    "Eleven" : 1,
+    "Chick Pea" : 4
   },
-  {
+  { 
     "name" : "Bert",
-    "v1" : "Louise",
-    "v2" : "Bea",
-    "v3" : "Chick Pea",
-    "v4" : "Eleven"
+    "Bea" : 2,
+    "Louise" : 1,
+    "Eleven" : 4,
+    "Chick Pea" : 3
   },
   {
     "name" : "Joseph",
-    "v1" : "Louise",
-    "v2" : "Bea",
-    "v3" : "Eleven",
-    "v4" : "Chick Pea"
+    "Bea" : 2,
+    "Louise" : 1,
+    "Eleven" : 3,
+    "Chick Pea" : 4
   },
   {
     "name" : "Brian",
-    "v1" : "Eleven",
-    "v2" : "Louise",
-    "v3" : false,
-    "v4" : false
+    "Bea" : 0,
+    "Louise" : 2,
+    "Eleven" : 1,
+    "Chick Pea" : 0
   },
   {
     "name" : "Alyssa",
-    "v1" : "Chickpea",
-    "v2" : "Louise",
-    "v3" : false,
-    "v4" : false
+    "Bea" : 0,
+    "Louise" : 2,
+    "Eleven" : 0,
+    "Chick Pea" : 1
   },
   {
     "name" : "Arta",
-    "v1" : "Louise",
-    "v2" : "Chickpea",
-    "v3" : "Eleven",
-    "v4" : "Bea"
+    "Bea" : 4,
+    "Louise" : 1,
+    "Eleven" : 3,
+    "Chick Pea" : 2
   },
   {
     "name" : "Nicki",
-    "v1" : "Eleven",
-    "v2" : false,
-    "v3" : false,
-    "v4" : false
+    "Bea" : 0,
+    "Louise" : 0,
+    "Eleven" : 1,
+    "Chick Pea" : 0
   },
   {
     "name" : "Sandra",
-    "v1" : "Eleven",
-    "v2" : false,
-    "v3" : false,
-    "v4" : false
+    "Bea" : 0,
+    "Louise" : 0,
+    "Eleven" : 1,
+    "Chick Pea" : 0
   },
   {
     "name" : "Tomi",
-    "v1" : "Bea",
-    "v2" : "Louise",
-    "v3" : "Chick Pea",
-    "v4" : "Eleven"
+    "Bea" : 1,
+    "Louise" : 2,
+    "Eleven" : 4,
+    "Chick Pea" : 3
   },
   {
     "name" : "Mike F",
-    "v1" : "Bea",
-    "v2" : "Louise",
-    "v3" : "Chick Pea",
-    "v4" : "Eleven"
+    "Bea" : 1,
+    "Louise" : 2,
+    "Eleven" : 4,
+    "Chick Pea" : 3
   },
   {
     "name" : "Ilse",
-    "v1" : "Bea",
-    "v2" : "Louise",
-    "v3" : "Chick Pea",
-    "v4" : "Eleven"
+    "Bea" : 1,
+    "Louise" : 2,
+    "Eleven" : 4,
+    "Chick Pea" : 3
   },
   {
     "name" : "Rachel",
-    "v1" : "Chick Pea",
-    "v2" : "Louise",
-    "v3" : "Eleven",
-    "v4" : "Bea"
+    "Bea" : 4,
+    "Louise" : 2,
+    "Eleven" : 3,
+    "Chick Pea" : 1
   },
   {
     "name" : "Clint",
-    "v1" : "Chick Pea",
-    "v2" : "Louise",
-    "v3" : "Bea",
-    "v4" : "Eleven"
+    "Bea" : 3,
+    "Louise" : 2,
+    "Eleven" : 4,
+    "Chick Pea" : 1
   },
   {
     "name" : "Mike S",
-    "v1" : "Louise",
-    "v2" : "Bea",
-    "v3" : "Eleven",
-    "v4" : "Chick Pea"
+    "Bea" : 2,
+    "Louise" : 1,
+    "Eleven" : 3,
+    "Chick Pea" : 4
   },
   {
     "name" : "Mallory",
-    "v1" : "Chick Pea",
-    "v2" : "Eleven",
-    "v3" : "Louise",
-    "v4" : "Bea"
+    "Bea" : 4,
+    "Louise" : 3,
+    "Eleven" : 2,
+    "Chick Pea" : 1
   },
   {
     "name" : "Mike P",
-    "v1" : "Eleven",
-    "v2" : "Bea",
-    "v3" : "Louise",
-    "v4" : "Chick Pea"
-    }
+    "Bea" : 2,
+    "Louise" : 3,
+    "Eleven" : 1,
+    "Chick Pea" : 4
+  }
 ];
 
 // let personName = obj.name;
@@ -118,168 +118,87 @@ var votes = [
 
 let voted = votes.length;
 names = [ "Bea", "Louise", "Eleven", "Chick Pea" ];
+let named = "";
 let bea = 0;
+let bea_count = 0;
 let louise = 0;
+let louise_count = 0;
 let eleven = 0;
+let eleven_count = 0;
 let chickpea = 0;
+let chickpea_count = 0;
 
 let bea_weighted = 0;
+let bea_weighted_count = 0;
 let louise_weighted = 0;
+let louise_weighted_count = 0;
 let eleven_weighted = 0;
+let eleven_weighted_count = 0;
 let chickpea_weighted = 0;
-
-let novote = 0;
-let totalpoints;
-
-let first = 0;
-let second = 0;
-let third = 0;
-let fourth = 0;
-
-var parseVote = function(name, weight) {
-  // console.log (name);
-
-  if ( name == "Bea") {
-    bea+=weight;
-  } else if ( name == "Louise") {
-    louise+=weight;
-  } else if ( name == "Eleven" ) {
-    eleven+=weight;
-  } else if ( name == "Chick Pea" ) {
-    chickpea+=weight;
-  } else {
-    novote+=weight;
-  }
-};
-
-var parseVoteWeighted = function(name, weight) {
-  //console.log (name);
-
-  if ( name == "Bea") {
-    bea_weighted+=weight;
-  } else if ( name == "Louise") {
-    louise_weighted+=weight;
-  } else if ( name == "Eleven" ) {
-    eleven_weighted+=weight;
-  } else if ( name == "Chick Pea" ) {
-    chickpea_weighted+=weight;
-  } else {
-    //console.log("oops");
-  }
-};
-
-var parseWeighted = function(r) {
-  //console.log(r.includes(false));
-  if ( r.includes(false) ) {
-    //console.log (r);
-    // how many false
-    let count = 0;
-    for (var f=0; f < r.length; f++) {
-      if ( r[f] == false ) {
-        count++;
-      }
-    }
-    let offset;
-    let namesCopy;
-    let x; 
-    let index;
-
-    if ( count == 1 ) {
-      // none
-    } else if ( count == 2 ) {
-      offset = 3;
-      //console.log(r[0]);
-      //console.log(r[1]);
-
-      // missing name needs to be determined
-      namesCopy= [...names];
-      index = namesCopy.indexOf(r[0]);
-      x = namesCopy.splice(index, 1);
-      index = namesCopy.indexOf(r[1]);
-      x = namesCopy.splice(index, 1);
-      
-      parseVoteWeighted(r[0], 1);
-      parseVoteWeighted(r[1], 2);
-
-      parseVoteWeighted(namesCopy[0], offset);
-      parseVoteWeighted(namesCopy[1], offset);
-    } else if ( count == 3 ) {
-      offset = 3.5;
-      //console.log(r[0]);
-
-      namesCopy= [...names];
-      index = namesCopy.indexOf(r[0]);
-      x = namesCopy.splice(index, 1);
-
-      parseVoteWeighted(r[0], 1);
-      
-      parseVoteWeighted(namesCopy[0], offset);
-      parseVoteWeighted(namesCopy[1], offset);
-      parseVoteWeighted(namesCopy[2], offset);
-    } else if ( count == 4 ) {
-      // none
-    }
-  } else {
-    //console.log (r);
-    parseVoteWeighted(r[0], 1);
-    parseVoteWeighted(r[1], 2);
-    parseVoteWeighted(r[3], 3);
-    parseVoteWeighted(r[4], 4);
-  }
-};
+let chickpea_weighted_count = 0;
 
 for (var i=0; i < votes.length; i++) {
 
-    var name = votes[i].name;
-    var v1 = votes[i].v1;
-    var v2 = votes[i].v2;
-    var v3 = votes[i].v3;
-    var v4 = votes[i].v4;
+    named = votes[i].name;
+    bea = votes[i]["Bea"];
+    louise = votes[i]["Louise"];
+    eleven = votes[i]["Eleven"];
+    chickpea = votes[i]["Chick Pea"];
 
-    parseVote(v1, 1);
-    parseVote(v2, 2);
-    parseVote(v3, 3);
-    parseVote(v4, 4);
+    let vote = [bea,louise,eleven,chickpea];
+
+    bea_count+=bea;
+    louise_count+=louise;
+    eleven_count+=eleven;
+    chickpea_count+=chickpea;
+
+    if ( vote.includes(0) ) {
+      let amount = 0;
+      let offet = 0;
+      for (let x=0; x < vote.length; x++) {
+        if ( vote[x] == 0 ) {
+          amount++;
+        }
+      }
+      //console.log(amount);
+      
+      if ( amount == 2 ) {
+        offset = 3.5;
+        for (let z=0; z < vote.length; z++) {
+          if ( vote[z] == 0 ) {
+            vote[z] = offset;
+          }
+        }
+      } else if ( amount == 3 ) {
+        offset = 3;
+        for (let z=0; z < vote.length; z++) {
+          if ( vote[z] == 0 ) {
+            vote[z] = offset;
+          }
+        }
+      } 
+    }
+
+    bea_weighted = vote[0];
+    louise_weighted = vote[1];
+    eleven_weighted = vote[2];
+    chickpea_weighted = vote[3];
+
+    bea_weighted_count+=bea_weighted;
+    louise_weighted_count+=louise_weighted;
+    eleven_weighted_count+=eleven_weighted;
+    chickpea_weighted_count+=chickpea_weighted;
 }
 
-  // weighted
-  for (var i=0; i < votes.length; i++) {
-
-    var name = votes[i].name;
-    var v1 = votes[i].v1;
-    var v2 = votes[i].v2;
-    var v3 = votes[i].v3;
-    var v4 = votes[i].v4;
-
-    vote = parseWeighted([v1,v2,v3,v4]);
-
-    // parseVote(v1, 1);
-    // parseVote(v2, 2);
-    // parseVote(v3, 3);
-    // parseVote(v4, 4);
-  }
-
-
-// console.log("Bea : " + bea);
-// console.log("Louise : " + louise);
-// console.log("Eleven : " + eleven);
-// console.log("Chick Pea : " + chickpea);
-console.log("voted: " + voted);
-console.log("no vote: " + novote);
-
-totalpoints = bea + louise + eleven + chickpea + novote;
-
 window.onload = function() {
-  document.getElementById("bea").getElementsByClassName("result")[0].innerHTML = bea;
-  document.getElementById("louise").getElementsByClassName("result")[0].innerHTML = louise;
-  document.getElementById("eleven").getElementsByClassName("result")[0].innerHTML = eleven;
-  document.getElementById("chickpea").getElementsByClassName("result")[0].innerHTML = chickpea;
+  document.getElementById("bea").getElementsByClassName("result")[0].innerHTML = bea_count;
+  document.getElementById("louise").getElementsByClassName("result")[0].innerHTML = louise_count;
+  document.getElementById("eleven").getElementsByClassName("result")[0].innerHTML = eleven_count;
+  document.getElementById("chickpea").getElementsByClassName("result")[0].innerHTML = chickpea_count;
   document.getElementById("voted").getElementsByClassName("result")[0].innerHTML = voted;
-  document.getElementById("novote").getElementsByClassName("result")[0].innerHTML = novote;
-  document.getElementById("total-points").getElementsByClassName("result")[0].innerHTML = totalpoints;
 
-  // document.getElementById("bea_weighted").getElementsByClassName("result")[0].innerHTML = bea_weighted;
-  // document.getElementById("louise_weighted").getElementsByClassName("result")[0].innerHTML = louise_weighted;
-  // document.getElementById("eleven_weighted").getElementsByClassName("result")[0].innerHTML = eleven_weighted;
-  // document.getElementById("chickpea_weighted").getElementsByClassName("result")[0].innerHTML = chickpea_weighted;
+  document.getElementById("bea_weighted").getElementsByClassName("result")[0].innerHTML = bea_weighted_count;
+  document.getElementById("louise_weighted").getElementsByClassName("result")[0].innerHTML = louise_weighted_count;
+  document.getElementById("eleven_weighted").getElementsByClassName("result")[0].innerHTML = eleven_weighted_count;
+  document.getElementById("chickpea_weighted").getElementsByClassName("result")[0].innerHTML = chickpea_weighted_count;
 };

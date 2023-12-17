@@ -333,3 +333,7 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
     margin-bottom: 2px;
   }
 }
+
+.cats {
+  > ul > li:before { content: ""; }
+}
