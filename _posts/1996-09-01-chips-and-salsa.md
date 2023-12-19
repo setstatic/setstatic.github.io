@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "chips and salsa"
+title:  "chips + salsa, vol. 1"
 date:   1996-09-01 0:0:0 -0500
 image: chips
 categories: [posts, event]

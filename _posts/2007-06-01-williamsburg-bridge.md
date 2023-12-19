@@ -8,7 +8,7 @@ categories: [posts, event]
 
 # Williamsburg Bridge
 
-Stop motion filming of the Williamsburg Bridge, spring/summer 2007
+Stop motion filming of the Williamsburg Bridge, spring/summer 2007. Additional still from flash kaleidoscopic piece of the footage.
 
 <img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}.jpg" alt="{{ page.title }}" />
 

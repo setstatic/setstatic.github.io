@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "holiday cat"
-date:   2023-12-19 0:0:0 -0500
-image: holiday_cat
+title:  "philodendron"
+date:   2023-11-15 0:0:0 -0500
+image: philodendron_painting
 categories: [posts, painting, art]
 ---
 
-# El Gato
-
-Cat print for the current Easton Public Market show, the art of giving.
+# Philodendron
 
 <img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}.jpg" alt="{{ page.title }}" />
