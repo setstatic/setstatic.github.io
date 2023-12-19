@@ -1,3 +1,16 @@
+// Breakpoints
+// ---------------
+$small: 320px !default;
+$iphone6: 375px !default;
+$small-medium: 400px !default;
+$medium: 768px !default;
+$medium-large: 1000px !default;
+$large: 1200px !default;
+$large-xlarge: 1400px !default;
+$xlarge: 1600px !default;
+
+@import "utils/mixins";
+
 /**
  * Google fonts
  */
@@ -341,7 +354,9 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .chips_salsa,
 .half__image {
   img {
-    width: 49%;
+    @include breakpoint($medium) {
+      width: 49%;
+    }
   }
 }
 
