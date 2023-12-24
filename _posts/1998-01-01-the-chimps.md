@@ -8,7 +8,7 @@ categories: [posts, music]
 
 # The Chimps
 
-Lost Williamsburg, late 90s, The Chimps. Recorder at Coyote, long before it was an Urban Outfitters.
+Lost Williamsburg, late 90s, The Chimps: Alison, Milan, Mike & Terence. Recorded at Coyote, long before it was an Urban Outfitters. 
 
 <img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}.jpg" alt="{{ page.title }}" />
 
