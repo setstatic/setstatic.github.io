@@ -360,6 +360,13 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
   }
 }
 
+.img__org {
+  width: 100%;
+  @include breakpoint($medium) {
+    width: auto;
+  }
+}
+
 .center {
   display: flex;
   align-items: center;
