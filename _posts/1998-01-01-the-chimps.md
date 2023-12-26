@@ -12,7 +12,6 @@ Lost Williamsburg, late 90s, The Chimps: Alison, Milan, Mike & Terence. Recorded
 
 <img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}.jpg" alt="{{ page.title }}" />
 
-<br>
 <a href="/assets/audio/chimps/sneak_attack.mp3">sneak attack</a>
 <a href="/assets/audio/chimps/tongue_of_blowfly.mp3">tongue of blowfly</a>
 <a href="/assets/audio/chimps/outrageous_look.mp3">outrageous look</a>
