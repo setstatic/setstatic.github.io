@@ -56,7 +56,7 @@ body_class: resume
     <div class="frame">
       <div class="job__position">Assistant Designer and Project Manager</div>
       <div class="job__employer">Funline Animation</div>
-      <div class="job__clients"><span class="job__clients__title">Clients </span>Nick Jr, PBS</div>
+      <div class="job__clients"><span class="job__clients__title">Clients </span>Nick Jr, PBS, Scholastic, Pfizer</div>
       <div class="job__details">
         <div class="job__details__title">Shows</div>
         <div class="job__details__detail">Dora the Explorer, Go Diego Go</div>
