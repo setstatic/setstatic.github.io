@@ -1,0 +1,10 @@
+<div class="post__images">
+{% for count in (1..include.image_count) %}
+  {% if include.image_count > 1 %}
+    {% assign img = include.image | append: "_0" | append: count %}
+  {% else %}
+    {% assign img = include.image %}
+  {% endif %}
+  <img class="img img__post" src="{{ site.base_img_path }}{{img}}.jpg" alt="{{ page.title }}" />
+{% endfor %}
+</div>

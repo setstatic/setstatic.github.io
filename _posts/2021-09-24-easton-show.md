@@ -3,6 +3,7 @@ layout: post
 title:  "first easton show"
 date:   2021-09-24 0:0:0 -0500
 image: easton_flyer
+image_count: 2
 categories: [posts, event]
 ---
 
@@ -14,5 +15,4 @@ categories: [posts, event]
 
 First attempt at producing a show locally in Easton, PA
 
-<img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}_01.jpg" alt="{{ page.title }}" />
-<img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}_02.jpg" alt="{{ page.title }}" />
+{% include images.html image=page.image image_count=page.image_count %}

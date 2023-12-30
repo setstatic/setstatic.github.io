@@ -3,7 +3,8 @@ layout: post
 title:  "chips + salsa, vol. 1"
 date:   1996-09-01 0:0:0 -0500
 image: chips
-categories: [posts, event]
+image_count: 14
+categories: [posts, zine, art]
 ---
 
 # Chips + Salsa, Vol. 1

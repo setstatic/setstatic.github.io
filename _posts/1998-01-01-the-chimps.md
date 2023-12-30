@@ -3,6 +3,7 @@ layout: post
 title:  "the chimps"
 date:   1998-01-01 0:0:0 -0500
 image: the_chimps
+image_count: 1
 categories: [posts, music]
 ---
 
@@ -10,7 +11,7 @@ categories: [posts, music]
 
 Lost Williamsburg, late 90s, The Chimps: Alison, Milan, Mike & Terence. Recorded at Coyote, long before it was an Urban Outfitters. 
 
-<img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}.jpg" alt="{{ page.title }}" />
+{% include images.html image=page.image image_count=page.image_count %}
 
 <a href="/assets/audio/chimps/sneak_attack.mp3">sneak attack</a>
 <a href="/assets/audio/chimps/tongue_of_blowfly.mp3">tongue of blowfly</a>

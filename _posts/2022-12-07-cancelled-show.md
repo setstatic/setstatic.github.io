@@ -3,6 +3,7 @@ layout: post
 title:  "cancelled show"
 date:   2022-12-07 0:0:0 -0500
 image: cancelled_flyer
+image_count: 1
 categories: [posts, event]
 ---
 
@@ -13,4 +14,4 @@ categories: [posts, event]
 
 Fourth Easton show that was unfortunately cancelled due to covid.
 
-<img class="img img__post" src="{{ site.base_img_path }}{{ page.image }}.jpg" alt="{{ page.title }}" />
+{% include images.html image=page.image image_count=page.image_count %}
