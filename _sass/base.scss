@@ -226,7 +226,7 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 
 .resume {
   //font-family: 'Inconsolata', monospace;
-  color: #999999;
+  //color: #999999;
   font-size: 15px;
   // body {
   //   font-family: 'Inconsolata', monospace;
@@ -356,6 +356,11 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
     color: #a6e22e; /*green*/
     margin-bottom: 2px;
   }
+
+  .contact {
+    text-align: right;
+    color: #FFF;
+  }
 }
 
 .cats {
@@ -388,6 +393,21 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 @media print {
   .menu .menu__item {
     display: none;
+  }
+  // .resume {
+  //   color: #000 !important;
+  // }
+}
+
+.print {
+  *,
+  .info,
+  .contact,
+  .job__header,
+  .job,
+  .education,
+  .tooling {
+    color: #333 !important;
   }
 }
 
