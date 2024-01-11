@@ -360,6 +360,11 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
   .contact {
     text-align: right;
     color: #FFF;
+    margin-bottom: 2rem;
+  }
+
+  .info__copy {
+    margin-bottom: 2rem;
   }
 }
 
@@ -408,6 +413,10 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
   .education,
   .tooling {
     color: #333 !important;
+    background: #fff;
+  }
+  .education__header {
+    margin-top: 6rem;
   }
 }
 
