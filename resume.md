@@ -147,14 +147,14 @@ body_class: resume
   <div class="tools">
     <div class="frame">
       <div class="tools__section">cms</div>
-      <div class="tools__description">drupal, wordpress, shopify, jekyll</div>
+      <div class="tools__description">drupal, wordpress, shopify, jekyll, s3</div>
     </div>
   </div>
 
   <div class="tools">
     <div class="frame">
       <div class="tools__section">graphics</div>
-      <div class="tools__description">photoshop, illustrator, inkscape, figma, indesign</div>
+      <div class="tools__description">photoshop, illustrator, inkscape, figma</div>
     </div>
   </div>
 
