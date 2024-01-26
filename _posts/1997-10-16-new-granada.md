@@ -11,6 +11,8 @@ categories: [posts, music]
 
 New Granada formed somewhere around 1995-1996. First time playing at CBGBs (10/16/97), broke something like three bass strings on stage from nervousness. Nice typo suggesting we were "The" New Granada. Name refers to the town in the movie, Over The Edge ('79). Band existed for a few years, later morphed into Garuda, which toured with and supported Ill Ease.
 
+Remember playing a club called The Spiral off of Houston St, The Clemente Soto Vélez Cultural & Educational Center and some Veteran Hall in Conneticut.
+
 {% include images.html image=page.image image_count=page.image_count %}
 
 <a href="/assets/audio/granada/chemical_bath.mp3">chemical bath</a>

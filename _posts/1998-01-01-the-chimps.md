@@ -9,7 +9,7 @@ categories: [posts, music]
 
 # The Chimps
 
-Lost Williamsburg, late 90s, The Chimps: Alison, Milan, Mike & Terence. Recorded at Coyote, long before it was an Urban Outfitters. 
+Lost Williamsburg, late 90s, The Chimps: Alison, Milan, Mike & Terence. Recorded at Coyote, long before it was an Urban Outfitters. Played at The Kingsland Tavern, in Greenpoint, often. The Walkmen opening for us once there, or some early incarnation of their band. Would also haunt Nightengales on 2nd avenue and The Continental.
 
 {% include images.html image=page.image image_count=page.image_count %}
 

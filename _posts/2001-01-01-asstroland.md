@@ -9,7 +9,7 @@ categories: [posts, music]
 
 # As$troland
 
-Band existed before me and continued after. 3rd bassist. Started playing somewhere around 2001 until 2004, maybe.. 
+Band existed before me and continued after. 3rd bassist. Started playing somewhere around 2001 until 2004, maybe.. Played ABCnoRio countless times. CBGBs, C-Squat, Umbrella House, Mr Beery's. A southern tour in there somewhere.
 
 {% include images.html image=page.image image_count=page.image_count %}
 
