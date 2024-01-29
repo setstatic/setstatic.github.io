@@ -3,7 +3,7 @@ layout: post
 title:  "as$troland"
 date:   2001-01-01 0:0:0 -0500
 image: as$troland
-image_count: 1
+image_count: 2
 categories: [posts, music]
 ---
 
