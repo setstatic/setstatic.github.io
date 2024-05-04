@@ -11,10 +11,7 @@ I’ve been making stuff for a long while now. Wearer of many hats: Animator, De
 Oft Center is a repository for various personal and professional projects, an attempt to document the multitude of work produced over the years. 
 
 Things to look at:
-- [resume](/resume/)
 - [instagram](https://www.instagram.com/setstatic/)
 - [vimeo](https://vimeo.com/setstatic)
-- [swiftkick web](https://www.swiftkickweb.com/)
-- [linkedIn](https://www.linkedin.com/in/mikeperkins/details/experience/)
 
 
