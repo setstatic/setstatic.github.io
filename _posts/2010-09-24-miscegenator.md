@@ -14,7 +14,7 @@ categories: [posts, music]
 {% include images.html image=page.image image_count=page.image_count %}
 
 <video width="640" height="480" controls>
-  <source src="/assets/mov/victory.mp4" type="video/mp4">
+  <source src="/assets/mov/victory.m4v" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
