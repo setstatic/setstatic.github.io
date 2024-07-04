@@ -9,7 +9,7 @@ categories: [posts, music]
 
 # Miscegenator
 
-4 string, 3 and 6th | 2010-2021 or something
+4 strings, 3 and 6th | 2010-2021 or something
 
 {% include images.html image=page.image image_count=page.image_count %}
 
