@@ -4,7 +4,7 @@ title:  "miscegenator"
 date:   2010-09-24 0:0:0 -0500
 image: miscegenator
 image_count: 1
-categories: [posts, event]
+categories: [posts, music]
 ---
 
 # Miscegenator
