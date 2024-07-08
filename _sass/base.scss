@@ -442,3 +442,10 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
     height: 100%;
   }
 }
+
+video {
+  width: 100%;
+  @include breakpoint($medium) {
+    width: auto;
+  }
+}
